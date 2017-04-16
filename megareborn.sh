@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/megareborn
+cd $HOME/locker
 
 install() {
 	    cd tg
@@ -35,8 +35,8 @@ function print_logo() {
 function logo_play() {
     declare -A txtlogo
     seconds="0.010"
-    txtlogo[1]="REBORN"
-    txtlogo[2]="MEGA"
+    txtlogo[1]="#LOCKER"
+    txtlogo[2]="#TEAM"
     txtlogo[3]=""
     txtlogo[4]=""
     printf "\033[38;5;600m\t"
@@ -63,10 +63,10 @@ if [ ! -f ./tg/tgcli ]; then
 
    print_logo
    echo -e "\033[38;5;208m"
-   echo -e "     >>>>                       MEGA                             "
+   echo -e "     >>>>                       #SPIDER                             "
    echo -e "     >>>>                       BOT                             "
    echo -e "     >>>>                       ANTISPAM                                   "
-   echo -e "     >>>>                       @BOTREBORN_CH :-)                             "
+   echo -e "     >>>>                       @LokerTeam :-)                             "
    echo -e "     >>>>                                                            "
    echo -e "\033[0;00m"
    echo -e "\e[36m"
